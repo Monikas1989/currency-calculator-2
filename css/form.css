@@ -1,0 +1,53 @@
+.form {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(205, 209, 193);
+}
+
+.form__labelText {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}
+.form__header{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(240, 237, 243);
+    font-weight: bold;
+    border: 20px double antiquewhite;
+    background-color: black;
+}
+.form__fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    max-width: 300px;
+    
+}
+.form__currency{
+    padding: 10px;
+    border-radius:10px;
+    margin: 20px 0;
+    width: 190px;
+}
+.form__button {
+    background-color: #6baf4c;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+}
+.form__info {
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
