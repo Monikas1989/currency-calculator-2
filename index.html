@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency calculator</title>
 </head>
 
 <body>
@@ -21,6 +21,19 @@
                     </span>
                     <input placeholder="enter the amount in PLN" class="form__fieldset" type="number" name="js-amount"
                         step="0.01" min="1" autofocus>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Currency:
+                    </span>
+                    <input class="form__fieldset">
+                    <select class="currency" name="js-currency">
+                        <option>EUR-Unia Europejska</option>
+                        <option>USD-USA</option>
+                        <option>CAD-Kanada</option>
+                    </select>
                 </label>
             </p>
         </form>
