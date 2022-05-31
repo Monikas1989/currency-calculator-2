@@ -8,6 +8,7 @@
     <link href="css/container.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
+    <script defer src="script.js"></script>
     <title>Currency calculator</title>
 </head>
 
@@ -22,7 +23,7 @@
                     <span class="form__labelText">
                         Amount PLN:
                     </span>
-                    <input placeholder="enter the amount in PLN" class="form__fieldset" type="number" name="js-amount"
+                    <input placeholder="enter the amount in PLN" class="form__fieldset js-amount" type="number"
                         step="0.01" min="1" autofocus>
                 </label>
             </p>
@@ -32,16 +33,16 @@
                         Currency:
                     </span>
 
-                    <select class="js-currency form__currency">
-                        <option>Unia Europejska</option>
-                        <option>USA</option>
-                        <option>Kanada</option>
+                    <select class="form__field js-currency">
+                        <option value="EUR">Unia Europejska</option>
+                        <option value="USD">USA</option>
+                        <option value="CAD">Kanada</option>
                     </select>
                 </label>
             </p>
-            <button class="form__button" name="js-button">Przelicz</button>
+            <button class="form__button">Przelicz</button>
             <p class="form__info">
-                Kursy pochodzą ze strony...
+                Kursy pochodzą ze strony https://cinkciarz.pl/wymiana-walut/kalkulator-walutowy z dnia 31.05.2022
             </p>
             <p class="js-result form__result"></p>
         </form>
