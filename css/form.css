@@ -27,7 +27,7 @@
     max-width: 300px;
     
 }
-.form__currency{
+.form__field{
     padding: 10px;
     border-radius:10px;
     margin: 20px 0;
@@ -45,9 +45,21 @@
     width: 100%;
     font-weight: bold;
 }
+.form__button:hover {
+    background-color: #6baf4c77;
+}
+
+.form__button:active {
+    background-color: #6baf4c28;
+}
 .form__info {
     margin: 0 auto;
     font-size: 15px;
     font-weight: normal;
+    text-align: center;
+}
+.form__result{
+    font-size:25px;
+    font-weight:bold;
     text-align: center;
 }
